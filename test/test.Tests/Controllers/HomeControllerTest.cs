@@ -36,6 +36,7 @@ namespace test.Tests.Controllers
 
             // Assert
             Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+
         }
 
         [TestMethod]
